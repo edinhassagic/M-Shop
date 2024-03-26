@@ -1,0 +1,69 @@
+.header {
+  width: 100%;
+  background-color: #357ffb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.counter {
+    background-color: #fff;
+    height: fit-content;
+    width: 15px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+
+}
+
+.logo,
+.cart {
+  display: flex;
+  align-items: center;
+  
+}
+
+a:hover + .hover-cart-container,
+.hover-cart-container:hover {
+  display: block;
+}
+
+.imgWrapper {
+  padding: 10px;
+  
+  display: flex;
+}
+
+.logo img,
+.cart img {
+  height: 40px;
+  flex: 1;
+}
+.logo p {
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .logo p {
+    visibility: hidden;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.store-logo {
+  font-size: 50px;
+  text-decoration: none;
+  color: purple;
+}
+
+.store-logo-text {
+  text-decoration: none;
+  color: rgb(73, 1, 73);
+  font-weight: bold;
+}

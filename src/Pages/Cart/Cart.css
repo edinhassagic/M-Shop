@@ -1,0 +1,53 @@
+.container {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: purple;
+  padding: 20px 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  height: 70vh;
+  overflow: hidden;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: scroll;
+  padding: 20px 30px;
+  height: 600px;
+  min-height: 400px;
+}
+
+.price-action-container {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 20px;
+  align-items: center;
+}
+
+h2 {
+  color: white;
+}
+
+.checkout-btn button {
+  background-color: rgb(76, 24, 124);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checkout-btn button:hover {
+  background-color: rgb(59, 18, 97);
+}

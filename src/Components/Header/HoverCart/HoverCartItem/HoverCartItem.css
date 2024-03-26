@@ -1,0 +1,16 @@
+.hover-item-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.hover-item-container:last-child {
+  border-bottom: none;
+}
+
+.product-name {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+

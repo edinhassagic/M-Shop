@@ -1,0 +1,151 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+}
+
+.home-wrapper {
+  flex: 1;
+  max-width: 90%;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.item-card {
+  width: 330px;
+  max-width: 350px;
+}
+
+.item-heading {
+  text-align: center;
+
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+
+.item-description {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter-container {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filter-container select,
+.filter-container input,
+.filter-container button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.filter-container div {
+  align-self: center;
+}
+
+.filter-container select {
+  width: 150px;
+}
+
+.filter-container button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.filter-container input {
+  width: 80px;
+}
+
+.filter-container button:hover {
+  background-color: #0056b3;
+}
+
+.sort {
+  display: flex;
+}
+
+.user-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.selected-categories {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.selected-category-item {
+  background-color: white;
+  border: 1px solid #666666;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  width: 50px;
+  color: #666666;
+  text-transform: lowercase;
+  font-size: 12px;
+}
+
+.selected-category-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    justify-items: center;
+  }
+
+  .item-card {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .filter-container {
+    height: unset;
+
+    flex-direction: column;
+  }
+
+  .home-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+  }
+}

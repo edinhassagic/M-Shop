@@ -1,0 +1,77 @@
+.form-container {
+  padding: 20px 20px;
+  color: white;
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: purple;
+  height: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.checkout-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  overflow: hidden;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+input {
+  border: 1px solid rgb(156, 155, 155);
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+input:focus {
+  border: 1px solid rgb(109, 107, 107);
+}
+
+.firstname_lastname_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  padding: 0 5px;
+}
+
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.order-btn {
+  background-color: rgb(76, 24, 124);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.order-btn:hover {
+  background-color: rgb(59, 18, 97);
+}

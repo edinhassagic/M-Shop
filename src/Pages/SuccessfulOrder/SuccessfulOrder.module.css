@@ -1,0 +1,53 @@
+.container {
+  margin: 10px 10px;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.successful_order_message_container {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+
+.icon_container {
+  padding: 5px 0;
+  font-size: 100px;
+  color: rgb(76, 24, 124);
+}
+
+.message_container {
+  padding: 10px;
+}
+
+.message_title {
+  color: black;
+  padding: 5px;
+}
+
+.btn_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.close_btn {
+  background-color: rgb(76, 24, 124);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.close_btn:hover {
+  background-color: rgb(59, 18, 97);
+}

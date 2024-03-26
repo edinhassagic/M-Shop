@@ -1,0 +1,149 @@
+
+.single-item-main-wrapper {
+  width: 100%;
+ padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.single-item-container {
+  width: 80%;
+}
+
+.heading-and-image {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.car-details-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.car-details-image p {
+  padding: 40px;
+  
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+
+.car-details-image img {
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+ max-width: 600px;
+}
+
+.price-details h2 {
+  font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -.03em;
+    color: #000;
+    white-space: nowrap;
+}
+
+.price-details p {
+  color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.car-details-header h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  
+  line-height: 134%;
+  color: #000;
+}
+
+.img-header-price-wrapper {
+  background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.05);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+.car-details-header {
+  display: flex;
+ 
+  
+  width: 700px;
+
+  
+}
+
+.price-details {
+  width: 700px;
+}
+
+.car-details-icons-row-container {
+  grid-gap: 15px;
+  gap: 15px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+    box-shadow: 0 0 10px rgba(0,0,0,.05);
+}
+
+
+.car-details-description {
+  word-break: break-word;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 20px;
+}
+
+
+.car-details-icons-wrapper {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.05);
+  border-radius: 5px;
+  padding: 15px 25px;
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+  flex: 1 1;
+  border: 2px solid transparent;
+  transition: border-color .5s;
+}
+
+.heading-and-image img {
+  width: 700px;
+  max-width: 700px;
+
+  height: auto;
+}
+
+.manifacturer {
+  display: flex;
+  align-items: center;
+}
+
+.manifacturer img {
+  width: 60px;
+}
+
+
+
+.about-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
